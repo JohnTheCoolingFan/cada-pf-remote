@@ -15,5 +15,5 @@ Remote has 4 controls, color-coded to match the receiver. Product code is JV8011
 CaDA's remote control uses some frequency in the range of 2.4GHz, like bluetooth or wifi, but it does not show up on a smartphone with regular tools. The chip inside the remote doesn't have any markings (either erased or never put on), and it's a single chip in teh entire controller, so it is not possible to sniff spi between controller chip and radio chip.
 
 # Possible investigation directions:
-- [ ] use more sophisticated software tools to scan for bluetooth and wifi signals
+- [x] use more sophisticated software tools to scan for bluetooth and wifi signals (See [wifi-monitor.md](./wifi-monitor.md))
 - [ ] capture radio data and attempt to decode it
