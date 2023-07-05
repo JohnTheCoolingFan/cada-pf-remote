@@ -1,0 +1,1 @@
+Modding the remote to use analog potentiometers instead of digital buttons did not lead to any success, the chip inside only reads 1 or 0 as input. This raises suspicion that the protocol itself doesn't support values between full power and off.
